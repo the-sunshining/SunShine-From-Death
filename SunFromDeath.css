@@ -50,6 +50,7 @@ text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   text-indent: 10px;
+  overflow: hidden;
 }
 .half {
   width: 50%;
@@ -87,6 +88,20 @@ text-align: center;
   padding: 20px;
 }
 
+
+
+
+
+button {
+  background-color: var(--Main-c_one);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+button:hover {
+  background-color: var(--Main-c_two);
+}
 
 
 
