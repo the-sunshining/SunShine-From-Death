@@ -5,6 +5,8 @@
 
         <link rel="icon" href="Sun_From_Death_Logo.png">
         <link rel="stylesheet" type="text/css" href="SunFromDeath.css">
+        <link rel="stylesheet" type="text/css" href="audio.css">
+        <link rel="stylesheet" type="text/css" href="sample.css">
 
          <!-- Animate CSS-->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
@@ -20,7 +22,7 @@
 
 
 
-<div class="Part">
+<div id="GetCopy" class="Part">
     <div class="left_half book_cover">
     <img src="Sun_From_Death_Cover.jpg"/>
     </div>
@@ -80,16 +82,16 @@ ISBN-13: 978-1518478970<br/>
 
 
 
-<!--Audio Book!-->
+<!--Audio Book this part has special style! -->
 
-<div class="Part">
+<div class="Part" style="display: none;">
     <h1>Audio Book:</h1>
 
 <!-- Wrap right! -->
 <div class="right_half">
     <p>Title</p>
     <audio controls>
-        <source src="Audio_Files/00_Title_Copyright_AuthorsNote_BackCover.wav" type="audio/wav">
+        <source id="A00" src="Audio_Files/00_Title_Copyright_AuthorsNote_BackCover.wav" type="audio/wav">
       Your browser does not support the audio element.
       </audio>
 
@@ -104,11 +106,72 @@ ISBN-13: 978-1518478970<br/>
         <source src="Audio_Files/02_Are_Quads_Heavy.wav" type="audio/wav">
       Your browser does not support the audio element.
       </audio>
+
+      <p>SunShine From Death</p>
+    <audio controls>
+        <source src="Audio_Files/03_SunShine_from_Death.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
+
+      <p>You have to find somthing to do</p>
+    <audio controls>
+        <source src="Audio_Files/04_You_Have_To_Find_Somthing_To_Do.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
+
+      <p>Why God?</p>
+    <audio controls>
+        <source src="Audio_Files/05_Why_God.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
+
+      <p>I never thought that would happen</p>
+    <audio controls>
+        <source src="Audio_Files/06_I_never_thought_that_would_happen.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
+
+      <p>We have to keep living</p>
+    <audio controls>
+        <source src="Audio_Files/07_We_have_to_keep_living.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
+
+      <p>Are you prepared for Death?</p>
+    <audio controls>
+        <source src="Audio_Files/08_Are_You_Prepared_For_Death.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
+
+      <p>It is not your fault</p>
+    <audio controls>
+        <source src="Audio_Files/09_It_is_not_your_fault.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
+
+  <p>You can't take their place</p>
+  <audio controls>
+      <source src="Audio_Files/10_You_cannot_take_their_place.wav" type="audio/wav">
+    Your browser does not support the audio element.
+    </audio>
+
+    <p>Blessing you God</p>
+    <audio controls>
+        <source src="Audio_Files/11_blessing_you_God.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
+
 </div>
 
 <!-- Wrap left! -->
 <div class="left_half">
-
+    <div class="spacer">I couldn't decide what cd cover I liked best! <br/> Of course it doesn't matter.</div>
+<div class="CD_cover"></div>
+<hr class="solid">
+<p>
+    If you are enjoying reading a sample of the book or listening to the audio book...
+    <a href="#GetCopy"><button>Get your copy today</button></a>
+</p>
 </div>
 
 </div>
@@ -162,17 +225,29 @@ ISBN-13: 978-1518478970<br/>
 
 
 
-<!--animate__animated animate__bounce animate__slower animate__infinite-->
+<!--animate__animated animate__bounce animate__slower animate__infinite from animate css-->
 
 <div class="Show_Sample">
 <div class="Part You_Can_Read_Sample">
     <h1>You can read a sample of the book below</h1>
-    <p>If you like it, please share it with your friends and consider purchasing yourself a copy of the book!</p>
+    <p>If you like it, please share it with your friends and <a href="#GetCopy"><button>consider purchasing yourself a copy of the book</button></a>!</p>
 </div>
 <hr class="solid">
 
 <div class="Sample">
 
+
+
+
+
+
+
+
+
+
+
+
+    <section>
 <div class="Part left_half">
     <h2>Intro (It is too bad to be true)</h2>
     <p>
@@ -184,16 +259,37 @@ The people who were here to help us asked us if we had any question.
 I had one question “Is he really dead?”.
 It was just too hard to believe.
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/01_Intro.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
+
 </div>
 
 <div class="right_half">
     <img class="Part_IMG" src="IMG/Intro_It_Is_Too_Bad.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+<section>
 <div class="Part right_half">
     <h2>Are quads heavy?</h2>
     <p>
@@ -213,15 +309,34 @@ It was just too hard to believe.
        God is our refuge and strength, a very present help in trouble. <br/>
        <b>- Psalm 46:1 KJV</b>       
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/02_Are_Quads_Heavy.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
+
 </div>
 
 <div class="left_half">
     <img class="Part_IMG" src="IMG/God_wants_to_help_you_with_anything.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
 
+
+
+
+
+
+
+
+
+<section>
 <div class="Part left_half">
     <h2>SunShine from Death</h2>
     <p>
@@ -232,14 +347,32 @@ It was just too hard to believe.
       Have you just lost a loved one?<br/>
       It’s OK to grieve. But will you allow death to bring some light into your life?      
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/03_SunShine_from_Death.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
+
 </div>
 
 <div class="right_half">
     <img class="Part_IMG" src="IMG/SunShine_From_Death_IMG.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
+
+
+
+
+
+
+
+<section>
 
 <div class="Part right_half">
     <h2>You have to find something to do</h2>
@@ -250,15 +383,35 @@ It was just too hard to believe.
        How do you deal with grief?<br/>
        Find your way to deal with grief, and then do it. If crying is your way to deal with grief, go ahead and cry. But whatever way you deal with grief make sure you don’t do it too much, you still have a life to live.       
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/04_You_Have_To_Find_Somthing_To_Do.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
+
 </div>
 
 <div class="left_half">
     <img class="Part_IMG" src="IMG/cry.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
 
+
+
+
+
+
+
+
+
+
+<section>
 <div class="Part left_half">
     <h2>Why God?</h2>
     <p>
@@ -276,14 +429,30 @@ It was just too hard to believe.
        <b>- Psalm 121:1-2 KJV</b>
        
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/05_Why_God.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
 </div>
 
 <div class="right_half">
     <img class="Part_IMG" src="IMG/question_do_not_blame_God.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
+
+
+
+
+
+
+<section>
 <div class="Part right_half">
     <h2>I never thought that would happen</h2>
     <p>
@@ -294,15 +463,33 @@ It was just too hard to believe.
        Have you just lost a loved one?<br/>
        How will you respond? How will you react?       
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/06_I_never_thought_that_would_happen.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
 </div>
 
 <div class="left_half">
     <img class="Part_IMG" src="IMG/choose.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
 
+
+
+
+
+
+
+
+
+<section>
 <div class="Part left_half">
     <h2>We have to keep living</h2>
     <p>
@@ -314,15 +501,34 @@ It was just too hard to believe.
     </p><p>
         Do not let the grief kill you.        
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/07_We_have_to_keep_living.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
 </div>
 
 <div class="right_half">
     <img class="Part_IMG" src="IMG/if_lost_hope_one_day_see_them.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
 
+
+
+
+
+
+
+
+
+
+<section>
 <div class="Part right_half">
     <h2>Are you prepared for death?</h2>
     <p> 
@@ -342,17 +548,33 @@ It was just too hard to believe.
  Whereas ye know not what shall be on the morrow. For what is your life? It is even a vapour, that appeareth for a little time, and then vanisheth away.
 <b>- James 4:14 KJV</b>
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/08_Are_You_Prepared_For_Death.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
 </div>
 
 <div class="left_half">
     <img class="Part_IMG" src="IMG/are_you_prephared_to_die.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
 
 
 
+
+
+
+
+
+
+<section>
 <div class="Part left_half">
     <h2>It is not your fault</h2>
     <p>
@@ -363,16 +585,33 @@ It was just too hard to believe.
        “There is nothing you can do to prevent death.”<br/>
        There may have been many things you could have done differently, but don’t blame yourself.<br/>    
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/09_It_is_not_your_fault.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
 </div>
 
 <div class="right_half">
     <img class="Part_IMG" src="IMG/there_is_nothing_you_can_do_to_stop_death.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
 
 
+
+
+
+
+
+
+
+<section>
 <div class="Part right_half">
     <h2>You cannot take their place</h2>
     <p>
@@ -380,15 +619,34 @@ It was just too hard to believe.
       Have you just lost a brother or sister and feel like you need to take their place?<br/>
       Everybody is unique, special, and different. You could not possibly take your brother or sisters place, you are you and you cannot be anyone else. Your parents need you, they do not need you to take your sibling's place.      
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/10_You_cannot_take_their_place.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
 </div>
 
 <div class="left_half">
     <img class="Part_IMG" src="IMG/Everybody_is_unique_special_and_different.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
 
+
+
+
+
+
+
+
+
+
+<section>
 <div class="Part left_half">
     <h2>“In blessing thee Lord I will bless thee, and in cursing thee Lord I would never.”</h2>
     <p>
@@ -396,11 +654,20 @@ It was just too hard to believe.
     </p><p>
          Satan tries his hardest to get people to curse God. Bringing death is one way to do that. Sometimes people do curse God. But did you know that God is not the reason behind your troubles. Satan because he wants you to curse God creates as much pain as he can for you. So when you are hurt it is not God that needs cursed but Satan.        
 </p>
+<hr class="solid">
+
+<audio controls>
+  <source src="Audio_Files/11_blessing_you_God.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<hr class="solid">
+<a href="#GetCopy"><button>Get Your Copy Now!</button></a>
 </div>
 
 <div class="right_half">
     <img class="Part_IMG" src="IMG/blessing_you_God.png"/>
 </div>
+</section>
 <hr class="solid">
 
 
